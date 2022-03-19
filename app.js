@@ -69,7 +69,7 @@ function deleteUser() {
         alert(`User ${name} doesn't exist.`);
         return;
     }
-    
+
     addressMap.delete(name);
     alert(`User ${name} deleted.`);
 }
